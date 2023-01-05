@@ -43,15 +43,15 @@ Ardından Setup Files klasöründeki DSClientMac.sh dosyasını tutup bu ekrana 
 	bash /home/username/Downloads/SetupFiles/DSClientLinux.sh
 ```
 Kod satırı yukardaki örneğe benzer şekilde görülecektir. Tek fark dosya konumunuz olacaktır.
-Kod satırının sonudaki 1 adet boşluğu silmeniz gerekmektedir.
-Ardından Entr'a basarak komutu uygulayın.
+Kod satırının sonundaki 1 adet boşluğu silmeniz gerekmektedir.
+Ardından Enter'a basarak komutu uygulayın.
 
 Sizden kullanıcı şifrenizi girmeniz istenecektir. 
-Burada şuna dikkat edin ,linux terminalde şifrenzi yazdığınızda sanki hiçbirşey yazmıyormuş gibi görülebilir, bu normaldir.Şifrenizi yazın ve enter'a basıp onaylayın'
+Burada şuna dikkat edin ,linux terminalde şifrenizi yazdığınızda sanki hiçbirşey yazmıyormuş gibi görülebilir, bu normaldir.Şifrenizi yazın ve enter'a basıp onaylayın'
 
 ![title](Images/Linux/resim4.png)
 
-İşlem başarılı olması durumunda Terminal görüntüsü yukardaki görseldeki gibi olacak ve terminal bir alt satıra geçecektir.
+İşlem başarılı olması durumunda Terminal görüntüsü yukarıdaki görseldeki gibi olacak ve terminal bir alt satıra geçecektir.
 Herhangi bir sorunla karşılaşmanız halinde program kendi işlem ve hata kayıtlarını oluşturmaktadır. Bu dosyalardaki kayıt mesajlarını iletmeniz durumunda sorunlarınız daha hızlı çözüme kavuşacaktır.
 
 
@@ -75,7 +75,7 @@ Computer’i açın
 
 ![title](Images/Linux/resim7.png)
 
-Usr'ı açın.
+User'ı açın.
 
 ![title](Images/Linux/resim8.png)
 
