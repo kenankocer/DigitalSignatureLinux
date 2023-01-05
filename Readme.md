@@ -122,5 +122,4 @@ komutunu ve bu kaldırma işlemininden kaynaklı değişikliklerin  kaydedilmesi
 	sudo systemctl daemon-reload
 ```
 
-systemctl daemon-reload
 
