@@ -94,4 +94,33 @@ Bu dosyayı çift tıklayarak text editör ile açabilirsiniz.
 
 Programa ait hata dışı kayıtlar yine aynı klasörde bulunan “servicelog.out.txt” dosyasında tutulmaktadır.
 
+Dijital imza servisini  durdurmak zorunda kalırsanız  şu adımları izleyebilirsiniz.
+
+Teminali açın
+Servisi durdurmak için :  
+
+```sh 
+	sudo systemctl stop  dsclientscriptedservice.service
+```
+komutunu uygulayın.
+
+Sizden parolanızı isteyebilir, parolanızı girin.
+ 
+Servisi kapatmak için durdurma komutunu uyguladıktan sonra
+```sh 
+	sudo systemctl disable  dsclientscriptedservice.service
+```
+komutunu uygulayın.
+
+Servisi tamamen cihazınızdan silmek için kapatma komutunu uyguladıktan sonra
+```sh 
+	sudo rm /etc/systemd/system/dsclientscriptedservice.service
+```
+komutunu ve bu kaldırma işlemininden kaynaklı değişikliklerin  kaydedilmesi için
+
+```sh 
+	sudo systemctl daemon-reload
+```
+
+systemctl daemon-reload
 
